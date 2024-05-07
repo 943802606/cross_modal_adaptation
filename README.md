@@ -69,6 +69,7 @@ python eval.py --mode linear --modality cross_modal --classifier_init zeroshot -
 
 ## Average over 11 datasets
 注意ViT模型的/容易造成创建新的文件夹
+
 To compute average over 11 datasets, for example for the script above, you may run the following script to generate a csv file:
 ```
 python average.py --name all_RN50_linear_hand_crafted_flip_1_cross_modal_text_wiseft_False
